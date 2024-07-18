@@ -7,13 +7,8 @@ body {
   background-image: url("images/kawaii-unicorn-cute-3840x2160-10121.png");
   background-color: #cccccc;
   font-size: large;
-  font-family: "Courier New"
- }
-
-form div
-{
-  margin: 3% 3%;
-}
+  font-family: "Courier New";
+  }
 
 textarea {
   resize: none;
@@ -30,3 +25,9 @@ textarea {
 #lb {
   margin-left: 45%;
 }
+
+form fieldset {
+  margin-bottom: 5%;
+  width: 40%;
+}
+
