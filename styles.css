@@ -16,3 +16,7 @@ form div
 body {
   font-family: "Courier New"
 }
+
+#center {
+  text-align: center;
+}
