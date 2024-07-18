@@ -1,89 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Survey</title>
 </head>
+
 <body>
-  <form action="" method = "post" autocomplete="on">
+  <form action="" method="post" autocomplete="on">
 
-    <label for="fullname"> Your full name please</label>
-    <input type="text" id = "fullname" name="fullname">
+    <label for="fullname">Your full name please</label>
+    <input type="text" id="fullname" name="fullname">
 
-  <section>Age radio</section>
+    <fieldset>
+      <legend>Within what range does your age fall?</legend>
 
- <fieldset>
-   <legend>Within what range does your age fall?</legend>
-   
-    <div>
-      <input type="radio" id="young" name="age_range" value="young">
-      <label for="young">0-33</label>
-    </div>
-    <div>
-      <input type="radio" id="medium" name="age_range" value="medium">
-      <label for="css">34-66</label>
-    </div>
-    <div>
-      <input type="radio" id="old" name="age_range" value="old">
-      <label for="old">67-99</label>
-    </div>
- </fieldset>
+      <div>
+        <input type="radio" id="young" name="age_range" value="young">
+        <label for="young">0-33</label>
+      </div>
+      <div>
+        <input type="radio" id="medium" name="age_range" value="medium">
+        <label for="css">34-66</label>
+      </div>
+      <div>
+        <input type="radio" id="old" name="age_range" value="old">
+        <label for="old">67-99</label>
+      </div>
+    </fieldset>
 
- <fieldset>
-  <legend>What are your interests?:</legend>
+    <fieldset>
+      <legend>What are your interests?:</legend>
 
-  <div>
-    <input type="checkbox" id="active" name="active" checked />
-    <label for="active">breaking bones</label>
-  </div>
+      <div>
+        <input type="checkbox" id="active" name="active" checked />
+        <label for="active">breaking bones</label>
+      </div>
 
-  <div>
-    <input type="checkbox" id="traveling" name="traveling" />
-    <label for="traveling">Wherever I May Roam</label>
-  </div>
+      <div>
+        <input type="checkbox" id="traveling" name="traveling" />
+        <label for="traveling">Wherever I May Roam</label>
+      </div>
 
-  <div>
-    <input type="checkbox" id="books" name="books" />
-    <label for="books">bookworm</label>
-  </div>
+      <div>
+        <input type="checkbox" id="books" name="books" />
+        <label for="books">bookworm</label>
+      </div>
 
-  <div>
-    <input type="checkbox" id="music" name="music" />
-    <label for="music">earworms</label>
-  </div>
+      <div>
+        <input type="checkbox" id="music" name="music" />
+        <label for="music">earworms</label>
+      </div>
 
-  <div>
-    <input type="checkbox" id="films" name="films" />
-    <label for="films">escapism</label>
-  </div>
+      <div>
+        <input type="checkbox" id="films" name="films" />
+        <label for="films">escapism</label>
+      </div>
 
-  <div>
-    <input type="checkbox" id="nothing" name="nothing" />
-    <label for="nothing">none</label>
-  </div>
-</fieldset>
+      <div>
+        <input type="checkbox" id="nothing" name="nothing" />
+        <label for="nothing">none</label>
+      </div>
+    </fieldset>
 
-<label for="work-format"> Desirable work format:</label>
+    <label for="work-format">Desirable work format:</label>
+    <select name="work" id="work-format">
+      <option value="">-- Please choose an option --</option>
+      <option value="indi">indi remote work</option>
+      <option value="sciense">scientifical-ish research</option>
+      <option value="hardcore">nuclear power plant</option>
+      <option value="at-home">househusband(wife)</option>
+      <option value="soil">farmer</option>
+      <option value="office">office plankton</option>
+    </select>
 
-<select name="work" id="work-format">
-  <option value="">-- Please choose an option --</option>
-  <option value="indi">indi remote work</option>
-  <option value="sciense">scientifical-ish research</option>
-  <option value="hardcore">nuclear power plant</option>
-  <option value="at-home">househusband(wife)</option>
-  <option value="soil">farmer</option>
-  <option value="office">office plankton</option>
-</select>
- 
+    <label for="teeth">Specify your teeth quantity: </label>
+    <input type="number" id="teeth" name="teeth" min="0" max="32" />
 
-  <section>Teeth quantity number input</section>
+    <label for="anecdote">Tell your favorite bar joke:</label>
+    <textarea id="anecdote" name="anecdote" rows="10" cols="50">
+      A ... walks into a bar and ... ".
+    </textarea>
 
-  <section>anecdote textarea</section>
+    <button>End the suffering</button>
 
-  <section>submit button</section>
+  </form>
 
-</form>
-  
 </body>
+
 </html>
