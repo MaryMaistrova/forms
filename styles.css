@@ -22,12 +22,11 @@ textarea {
   margin-left: 3%;
 }
 
-#lb {
-  margin-left: 45%;
-}
-
 form fieldset {
   margin-bottom: 5%;
   width: 40%;
 }
 
+#logo {
+  float: left;
+}
