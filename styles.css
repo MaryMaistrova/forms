@@ -3,7 +3,16 @@ h1 {
   margin-left: 5%;
 }
 
+body {
+  background-image: url("images/kawaii-unicorn-cute-3840x2160-10121.png");
+  background-color: #cccccc;
+ }
+
 form div
 {
   margin: 3% 3%;
+}
+
+body {
+  font-family: "Courier New"
 }
