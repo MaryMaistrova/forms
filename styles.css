@@ -1,11 +1,13 @@
 h1 {
-  color: rgb(19, 97, 20);
+  color: rgb(163, 19, 96);
   margin-left: 5%;
 }
 
 body {
   background-image: url("images/kawaii-unicorn-cute-3840x2160-10121.png");
   background-color: #cccccc;
+  font-size: large;
+  font-family: "Courier New"
  }
 
 form div
@@ -13,10 +15,18 @@ form div
   margin: 3% 3%;
 }
 
-body {
-  font-family: "Courier New"
+textarea {
+  resize: none;
 }
 
-#center {
-  text-align: center;
+#fullname {
+  margin-left: 3%;
+}
+
+#fname {
+  margin-left: 3%;
+}
+
+#lb {
+  margin-left: 45%;
 }
